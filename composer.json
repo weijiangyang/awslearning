@@ -59,6 +59,7 @@
         "preferred-install": {
             "*": "dist"
         },
+        "component-dir": "web/assets",
         "sort-packages": true
     },
     "autoload": {
