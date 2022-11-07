@@ -24,8 +24,8 @@ class FichierCrudController extends AbstractCrudController
             TextField::new('imageFile', 'Upload')
             ->setFormType(VichImageType::class)
             ->onlyOnForms(),
-            ImageField::new('imageName', 'Ficher')
-            ->setBasePath('http://127.0.0.1:9000/awslearning')
+            ImageField::new('imageName', 'Fichier')
+            ->setBasePath('http://127.0.0.1:9000/awslearning/')
             ->hideOnForm()
         ];
     }
