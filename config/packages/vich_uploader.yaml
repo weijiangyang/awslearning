@@ -1,0 +1,10 @@
+vich_uploader:
+    db_driver: orm
+    storage: flysystem
+    metadata:
+        type: attribute
+
+    mappings:
+       fichier:
+           uri_prefix: /fichier
+           upload_destination: aws.storage
